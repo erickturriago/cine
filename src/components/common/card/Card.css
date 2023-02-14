@@ -1,0 +1,82 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(128, 128, 128, 0.462); */
+    transition: all .2s;
+    border-radius: 10px;
+    text-align: center;
+    /* transition: opacity 500ms, transform 500ms; */
+    /* color: white; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.card .divTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+
+
+.card .divTitulo p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(226, 226, 226);
+    max-width: 80%;
+    margin: 0;
+}
+
+.card button{
+    text-align: center;
+    all: unset;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    color: rgb(215, 215, 215);
+    width: 80%;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: opacity .5s;
+    
+}
+
+.card button:hover{
+    background-color: rgb(0, 0, 167);
+    transition: all .5s;
+}
+
+.card button:active{
+    transform: scale(1.02);
+}
+
+.card .imgPortada{
+    /* object-fit: cover; */
+    /* position: absolute; */
+    width:80%;
+    height:75%;
+    bottom: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s;
+    margin-bottom: 5px;
+}
+
+.card .imgPortada:hover{
+    transform: scale(1.05);
+    
+}
+
+.hoverEnter{
+    opacity: 0;
+}
+
+.hoverLeave{
+    opacity: 1;
+}
